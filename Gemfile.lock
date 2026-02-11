@@ -177,6 +177,7 @@ GEM
     minitest (6.0.1)
       prism (~> 1.5)
     msgpack (1.8.0)
+    mutex_m (0.3.0)
     net-imap (0.6.2)
       date
       net-protocol
@@ -403,6 +404,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  bigdecimal
   bootsnap
   brakeman
   bundler-audit
@@ -410,8 +412,10 @@ DEPENDENCIES
   debug
   image_processing (~> 1.2)
   importmap-rails
+  io-console
   jbuilder
   kamal
+  mutex_m
   pg
   propshaft
   puma (>= 5.0)
