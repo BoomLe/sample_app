@@ -6,6 +6,6 @@ class ApplicationController < ActionController::Base
   stale_when_importmap_changes
 
   def hello
-    render html: "hello world!"
+    render html: "Xin chào , tôi là Tuan! Rails 8 đã được deploy!"
   end
 end
